@@ -1,10 +1,10 @@
 # JSONApi
 JSON Api for registration, login and logout users
 
-0. Устанавливаем Django:
+0. Устанавить Django:
       pip install django 
       
-1. Устанавливаем Restless
+1. Устанавить Restless
       pip install restless
       
 2. Выполнить в первой вкладке терминала:
