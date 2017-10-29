@@ -1,6 +1,11 @@
 # JSONApi
 JSON Api for registration, login and logout users
 
+0. Устанавливаем Django:
+      pip install django
+   Устанавливаем Restless
+      pip install restless
+      
 1. Выполнить в первой вкладке терминала:
   python3 manage.py runserver
   
