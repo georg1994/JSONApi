@@ -22,14 +22,14 @@ curl -X POST -H "Content-Type: application/json" -d '{"email":"testemail@example
 
 curl -X PUT -H "Content-Type: application/json" -d '{"email":"testemail@example.ru", "password":"asd123", "user_type": true}' http://127.0.0.1:8000/api/account/register/id/
   
-Вместо <id> - пишем айди пользователя :)
+Вместо id - пишем айди пользователя :)
 Таким образом изменили тип пользователя на True
  
 Удалить пользователя: 
 
 curl -X DELETE http://127.0.0.1:8000/api/account/register/id/
   
-Вместо <id> - пишем айди пользователя :)
+Вместо id - пишем айди пользователя :)
   
 Вывести список пользователей (опять же для теста привязал к register, в продакшн такое пускать нельзя :)):
 
